@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    }
+
+h1{
+    text-align: center;
+    margin-top: 400px;
+    
+}
+#daddy{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: calc(50% - 200px);
+    top: calc(200px + 1rem);
+}
+#daddy > div{
+    height: 200px;
+    width: 200px;
+    transition: transform 2s;
+}
+
+.blue{
+    background: blue;
+    transform-origin: left top;
+    
+}
+
+.gray{
+    background: gray;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform-origin: right top;
+}
+.yellow {
+    background: yellow;
+    transform-origin: left bottom;
+   
+}
+.brown {
+    background: brown;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform-origin: right bottom;
+}
+#daddy:hover .blue,
+#daddy:hover .brown  {
+   transform: rotate(90deg);
+}
+
+#daddy:hover .yellow,
+#daddy:hover .gray  {
+   transform: rotate(-90deg);
+}
