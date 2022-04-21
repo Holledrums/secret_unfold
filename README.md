@@ -28,7 +28,7 @@
 
 Create an animation that works like the example shown below.
 
-![secret](secret-unfolds.gif)
+![secret](Image/secret-unfolds.gif)
 
 ### How to use this Project
 
